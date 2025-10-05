@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app1:
-    image: next-image:latest
+    image: jitenmax/next-image:latest
     container_name: app1
     expose:
       - "3000"
@@ -11,7 +11,7 @@ services:
       - image-net
 
   app2:
-    image: next-image:latest
+    image: jitenmax/next-image:latest
     container_name: app2
     expose:
       - "3000"
